@@ -1,0 +1,16 @@
+parameter,source,status,measured_value,unit,notes
+device_architecture,GT2N,KEEP,,,Stacked nanosheet GAAFET architecture target
+nanosheet_count,GT2N,KEEP,3,,Initial GT2N target
+gate_length,GT2N,MUST_MEASURE,,,Must be correlated with fabricated devices
+gate_pitch,GT2N,FAB_DEPENDENT,,,Depends on lithography and integration
+nanosheet_width,GT2N,CALIBRATE,,,Fabricated dimensions must be measured
+nanosheet_thickness,GT2N,MUST_MEASURE,,,TEM/CD measurement required
+sheet_spacing,GT2N,FAB_DEPENDENT,,,Depends on epitaxy and release process
+threshold_voltage,GT2N,CALIBRATE,,,Extract from silicon IV data
+contact_resistance,GT2N,MUST_MEASURE,,,Kelvin/TLM structure required
+M0_resistance,GT2N,MUST_MEASURE,,,Extract from test structures
+M1_resistance,GT2N,MUST_MEASURE,,,Extract from test structures
+via_resistance,GT2N,MUST_MEASURE,,,Via-chain structure required
+interconnect_capacitance,GT2N,MUST_MEASURE,,,Dedicated RC structures required
+BSPDN,GT2N,CALIBRATE,,,Integration depends on pilot-line capabilities
+VDD,GT2N,CALIBRATE,,,Final operating voltage depends on measured devices

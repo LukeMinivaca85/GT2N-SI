@@ -1,0 +1,31 @@
+project: GT2N-SI
+version: 0.1.0
+
+status: predictive
+
+upstream:
+  repository: azadnaeemi/GT2N
+  baseline_commit: fe179cb2aa424f93a2199a78bbbbed26c738f79c
+
+technology:
+  target_node_nm: 2
+  device_architecture: stacked_nanosheet_GAAFET
+  nanosheet_stack: 3
+  power_delivery: BSPDN
+
+qualification:
+  silicon_fabricated: false
+  silicon_measured: false
+  compact_models_calibrated_to_wafer: false
+  interconnect_calibrated_to_wafer: false
+  standard_cells_recharacterized: false
+  foundry_qualified: false
+
+policy:
+  claim_silicon_ready_only_when_all_qualification_fields_true: true
+
+notes:
+  - GT2N-SI starts from the predictive GT2N research PDK.
+  - Predictive parameters must remain distinguishable from measured parameters.
+  - Fabrication-specific rules require validation against a physical pilot process.
+  - GT2N-SI must not be described as silicon-qualified until physical measurements exist.
