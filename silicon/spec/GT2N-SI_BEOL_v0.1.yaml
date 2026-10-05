@@ -1,0 +1,130 @@
+process: GT2N-SI
+revision: 0.1
+status: predictive-reference
+
+# All values below originate from GT2N.
+# They are NOT silicon measurements.
+
+frontside:
+
+  M0:
+    thickness_nm: 24
+    width_nm: 12
+    spacing_nm: 12
+    pitch_nm: 24
+    sheet_resistance_ohm_sq: 7.461
+    dielectric_thickness_nm: 48
+    dielectric_er: 2.4
+
+  M1:
+    thickness_nm: 28
+    width_nm: 14
+    spacing_nm: 14
+    pitch_nm: 28
+    sheet_resistance_ohm_sq: 6.125
+    dielectric_thickness_nm: 56
+    dielectric_er: 2.4
+
+  M2:
+    thickness_nm: 24
+    width_nm: 12
+    spacing_nm: 12
+    pitch_nm: 24
+    sheet_resistance_ohm_sq: 7.461
+
+  M3:
+    thickness_nm: 28
+    width_nm: 14
+    spacing_nm: 14
+    pitch_nm: 28
+    sheet_resistance_ohm_sq: 6.125
+
+  M4:
+    thickness_nm: 42
+    width_nm: 21
+    sheet_resistance_ohm_sq: 3.506
+
+  M5:
+    thickness_nm: 42
+    width_nm: 21
+    sheet_resistance_ohm_sq: 3.506
+
+  M6_M9:
+    thickness_nm: 76
+    width_nm: 38
+    sheet_resistance_ohm_sq: 1.009
+
+  M10_M11:
+    thickness_nm: 112
+    width_nm: 56
+    sheet_resistance_ohm_sq: 0.419
+
+  M12_M13:
+    thickness_nm: 112
+    width_nm: 360
+    sheet_resistance_ohm_sq: 0.23
+
+  RDL:
+    thickness_nm: 500
+    width_nm: 1600
+    sheet_resistance_ohm_sq: 0.01
+
+backside:
+
+  enabled: true
+
+  BPR:
+    thickness_nm: 90
+    width_nm: 32
+    sheet_resistance_ohm_sq: 0.7778
+
+  BM1:
+    thickness_nm: 112
+    width_nm: 56
+    sheet_resistance_ohm_sq: 0.419
+
+  BM2:
+    thickness_nm: 112
+    width_nm: 56
+    sheet_resistance_ohm_sq: 0.419
+
+  BM3_BM4:
+    thickness_nm: 112
+    width_nm: 360
+    sheet_resistance_ohm_sq: 0.23
+
+vias:
+
+  VG_ohm: 31.94
+  VSD_ohm: 36.86
+
+  V0_ohm: 54.99
+  V1_ohm: 54.99
+  V2_ohm: 54.99
+
+  V3_ohm: 45.78
+  V4_ohm: 27.8
+  V5_ohm: 14.89
+
+  V6_ohm: 13.26
+  V7_ohm: 13.26
+  V8_ohm: 13.26
+
+  V9_ohm: 7.65
+  V10_ohm: 6.08
+  V11_ohm: 6.08
+  V12_ohm: 0.95
+  V13_ohm: 0.15
+
+  backside:
+    VBPR_ohm: 32.0
+    BV0_ohm: 25.1
+    BV1_ohm: 6.08
+    BV2_ohm: 6.08
+    BV3_ohm: 0.95
+    BV4_ohm: 0.15
+
+qualification:
+  values_from_predictive_itf: true
+  silicon_measured: false
+  rc_calibrated: false

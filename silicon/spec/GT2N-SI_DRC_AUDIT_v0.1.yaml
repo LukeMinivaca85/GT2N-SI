@@ -1,0 +1,28 @@
+process: GT2N-SI
+revision: 0.1
+status: partial-predictive-audit
+
+M0:
+
+  vertical_width:
+    value_nm: 12
+    rule: exact
+
+  horizontal_width:
+    minimum_nm: 24
+
+  vertical_spacing:
+    minimum_nm: 12
+
+  horizontal_tip_to_tip_spacing:
+    minimum_nm: 17
+
+  corner_to_corner_spacing:
+    minimum_nm: 15
+
+  geometry:
+    bending_allowed: false
+
+qualification:
+  source: GT2N_ICV_predictive_runset
+  foundry_verified: false
