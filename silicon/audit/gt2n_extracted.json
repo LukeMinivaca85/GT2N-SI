@@ -1,0 +1,471 @@
+{
+  "tech_lef": {
+    "techlib/gt2_fspdn_tech.lef": {
+      "LEF58_TYPE": {},
+      "LEF58_PITCH": {},
+      "LEF58_GAP": {},
+      "LEF58_EOLKEEPOUT": {},
+      "LEF58_SPACING": {},
+      "LEF58_CORNERSPACING": {},
+      "LEF58_WIDTHTABLE": {},
+      "LEF58_CUTCLASS": {},
+      "LEF58_SPACINGTABLE": {},
+      "LEF58_ENCLOSURE": {},
+      "LEF58_RIGHTWAYONGRIDONLY": {},
+      "LEF58_RECTONLY": {},
+      "LEF58_BACKSIDE": {},
+      "BPR": {},
+      "NW": {},
+      "ACT": {},
+      "CONT": {},
+      "GATE": {},
+      "DUMMY": {},
+      "NIM": {},
+      "PIM": {},
+      "SDCON": {},
+      "VBPR": {
+        "spacing": 0.012,
+        "width": 0.012
+      },
+      "VSD": {
+        "spacing": 0.029,
+        "width": 0.013
+      },
+      "VG": {
+        "spacing": 0.028,
+        "width": 0.014
+      },
+      "M0": {
+        "spacing": 0.012,
+        "width": 0.012,
+        "pitch": 0.024
+      },
+      "V0": {
+        "spacing": 0.014,
+        "width": 0.012
+      },
+      "M1": {
+        "spacing": 0.014,
+        "width": 0.014,
+        "pitch": 0.028
+      },
+      "V1": {
+        "spacing": 0.014,
+        "width": 0.012
+      },
+      "M2": {
+        "spacing": 0.012,
+        "width": 0.012,
+        "pitch": 0.024
+      },
+      "V2": {
+        "spacing": 0.014,
+        "width": 0.012
+      },
+      "M3": {
+        "spacing": 0.014,
+        "width": 0.014,
+        "pitch": 0.028
+      },
+      "V3": {
+        "spacing": 0.014,
+        "width": 0.014
+      },
+      "M4": {
+        "spacing": 0.021,
+        "width": 0.021,
+        "pitch": 0.042
+      },
+      "V4": {
+        "spacing": 0.021,
+        "width": 0.021
+      },
+      "M5": {
+        "spacing": 0.021,
+        "width": 0.021,
+        "pitch": 0.042
+      },
+      "V5": {
+        "spacing": 0.021,
+        "width": 0.021
+      },
+      "M6": {
+        "spacing": 0.038,
+        "width": 0.038,
+        "pitch": 0.076
+      },
+      "V6": {
+        "spacing": 0.038,
+        "width": 0.038
+      },
+      "M7": {
+        "spacing": 0.038,
+        "width": 0.038,
+        "pitch": 0.076
+      },
+      "V7": {
+        "spacing": 0.038,
+        "width": 0.038
+      },
+      "M8": {
+        "spacing": 0.038,
+        "width": 0.038,
+        "pitch": 0.076
+      },
+      "V8": {
+        "spacing": 0.038,
+        "width": 0.038
+      },
+      "M9": {
+        "spacing": 0.038,
+        "width": 0.038,
+        "pitch": 0.076
+      },
+      "V9": {
+        "spacing": 0.038,
+        "width": 0.038
+      },
+      "M10": {
+        "spacing": 0.056,
+        "width": 0.056,
+        "pitch": 0.112
+      },
+      "V10": {
+        "spacing": 0.056,
+        "width": 0.056
+      },
+      "M11": {
+        "spacing": 0.056,
+        "width": 0.056,
+        "pitch": 0.112
+      },
+      "V11": {
+        "spacing": 0.056,
+        "width": 0.056
+      },
+      "M12": {
+        "spacing": 0.36,
+        "width": 0.36,
+        "pitch": 0.72
+      },
+      "V12": {
+        "spacing": 0.36,
+        "width": 0.056
+      },
+      "M13": {
+        "spacing": 0.36,
+        "width": 0.36,
+        "pitch": 0.72
+      },
+      "V13": {
+        "spacing": 0.36,
+        "width": 0.056
+      },
+      "RDL": {
+        "spacing": 1.6,
+        "width": 1.6,
+        "pitch": 3.2
+      },
+      "OVERLAP": {}
+    },
+    "techlib/gt2_tech.lef": {
+      "LEF58_TYPE": {},
+      "LEF58_PITCH": {},
+      "LEF58_GAP": {},
+      "LEF58_EOLKEEPOUT": {},
+      "LEF58_SPACING": {},
+      "LEF58_CORNERSPACING": {},
+      "LEF58_WIDTHTABLE": {},
+      "LEF58_CUTCLASS": {},
+      "LEF58_SPACINGTABLE": {},
+      "LEF58_ENCLOSURE": {},
+      "LEF58_RIGHTWAYONGRIDONLY": {},
+      "LEF58_RECTONLY": {},
+      "LEF58_BACKSIDE": {},
+      "BRDL": {
+        "spacing": 1.6,
+        "width": 1.6,
+        "pitch": 3.2
+      },
+      "BV4": {
+        "spacing": 1.6,
+        "width": 0.056
+      },
+      "BM4": {
+        "spacing": 0.36,
+        "width": 0.36,
+        "pitch": 0.72
+      },
+      "BV3": {
+        "spacing": 0.36,
+        "width": 0.056
+      },
+      "BM3": {
+        "spacing": 0.36,
+        "width": 0.36,
+        "pitch": 0.72
+      },
+      "BV2": {
+        "spacing": 0.36,
+        "width": 0.056
+      },
+      "BM2": {
+        "spacing": 0.056,
+        "width": 0.056,
+        "pitch": 0.112
+      },
+      "BV1": {
+        "spacing": 0.056,
+        "width": 0.056
+      },
+      "BM1": {
+        "spacing": 0.056,
+        "width": 0.056,
+        "pitch": 0.112
+      },
+      "BV0": {
+        "spacing": 0.032,
+        "width": 0.032
+      },
+      "BPR": {
+        "spacing": 0.112,
+        "width": 0.032,
+        "pitch": 0.144
+      },
+      "NW": {},
+      "ACT": {},
+      "CONT": {},
+      "GATE": {},
+      "DUMMY": {},
+      "NIM": {},
+      "PIM": {},
+      "SDCON": {},
+      "VSD": {
+        "spacing": 0.029,
+        "width": 0.013
+      },
+      "VG": {
+        "spacing": 0.028,
+        "width": 0.014
+      },
+      "M0": {
+        "spacing": 0.012,
+        "width": 0.012,
+        "pitch": 0.024
+      },
+      "V0": {
+        "spacing": 0.014,
+        "width": 0.012
+      },
+      "M1": {
+        "spacing": 0.014,
+        "width": 0.014,
+        "pitch": 0.028
+      },
+      "V1": {
+        "spacing": 0.014,
+        "width": 0.012
+      },
+      "M2": {
+        "spacing": 0.012,
+        "width": 0.012,
+        "pitch": 0.024
+      },
+      "V2": {
+        "spacing": 0.014,
+        "width": 0.012
+      },
+      "M3": {
+        "spacing": 0.014,
+        "width": 0.014,
+        "pitch": 0.028
+      },
+      "V3": {
+        "spacing": 0.014,
+        "width": 0.014
+      },
+      "M4": {
+        "spacing": 0.021,
+        "width": 0.021,
+        "pitch": 0.042
+      },
+      "V4": {
+        "spacing": 0.021,
+        "width": 0.021
+      },
+      "M5": {
+        "spacing": 0.021,
+        "width": 0.021,
+        "pitch": 0.042
+      },
+      "V5": {
+        "spacing": 0.021,
+        "width": 0.021
+      },
+      "M6": {
+        "spacing": 0.038,
+        "width": 0.038,
+        "pitch": 0.076
+      },
+      "V6": {
+        "spacing": 0.038,
+        "width": 0.038
+      },
+      "M7": {
+        "spacing": 0.038,
+        "width": 0.038,
+        "pitch": 0.076
+      },
+      "V7": {
+        "spacing": 0.038,
+        "width": 0.038
+      },
+      "M8": {
+        "spacing": 0.038,
+        "width": 0.038,
+        "pitch": 0.076
+      },
+      "V8": {
+        "spacing": 0.038,
+        "width": 0.038
+      },
+      "M9": {
+        "spacing": 0.038,
+        "width": 0.038,
+        "pitch": 0.076
+      },
+      "V9": {
+        "spacing": 0.038,
+        "width": 0.038
+      },
+      "M10": {
+        "spacing": 0.056,
+        "width": 0.056,
+        "pitch": 0.112
+      },
+      "V10": {
+        "spacing": 0.056,
+        "width": 0.056
+      },
+      "M11": {
+        "spacing": 0.056,
+        "width": 0.056,
+        "pitch": 0.112
+      },
+      "V11": {
+        "spacing": 0.056,
+        "width": 0.056
+      },
+      "M12": {
+        "spacing": 0.36,
+        "width": 0.36,
+        "pitch": 0.72
+      },
+      "V12": {
+        "spacing": 0.36,
+        "width": 0.056
+      },
+      "M13": {
+        "spacing": 0.36,
+        "width": 0.36,
+        "pitch": 0.72
+      },
+      "V13": {
+        "spacing": 0.36,
+        "width": 0.056
+      },
+      "RDL": {
+        "spacing": 1.6,
+        "width": 1.6,
+        "pitch": 3.2
+      },
+      "OVERLAP": {}
+    }
+  },
+  "device_models": {
+    "device/tt/gt2_w31_elvt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 3.1e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    },
+    "device/tt/gt2_w13_svt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 1.3e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    },
+    "device/tt/gt2_w13_ulvt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 1.3e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    },
+    "device/tt/gt2_w31_hvt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 3.1e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    },
+    "device/tt/gt2_w13_lvt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 1.3e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    },
+    "device/tt/gt2_w13_elvt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 1.3e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    },
+    "device/tt/gt2_w13_hvt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 1.3e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    },
+    "device/tt/gt2_w31_lvt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 3.1e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    },
+    "device/tt/gt2_w31_ulvt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 3.1e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    },
+    "device/tt/gt2_w31_svt_tt.sp": {
+      "gate_length_m": 1.4e-08,
+      "eot_m": 7e-10,
+      "tfin_m": 5e-09,
+      "hfin_m": 3.1e-08,
+      "fpitch_m": 3e-08,
+      "nfin": 3.0
+    }
+  },
+  "files_found": [
+    "techlib/gt2_fspdn_tech.lef",
+    "techlib/gt2_tech.lef"
+  ]
+}
