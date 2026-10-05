@@ -1,0 +1,18 @@
+# GT2N-SI predictive reference
+# Source: GT2N gt2_w31_lvt_tt.sp
+# NOT wafer measurements.
+
+device:
+  model_family: BSIM-CMG
+  level: 72
+  gate_length_nm: 14
+  eot_nm: 0.7
+  tfin_nm: 5
+  hfin_nm: 31
+  fpitch_nm: 30
+  stacked_channels: 3
+
+status:
+  source: predictive_GT2N
+  silicon_measured: false
+  fabrication_qualified: false

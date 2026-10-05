@@ -1,0 +1,24 @@
+# GT2N-SI measured silicon parameters
+#
+# DO NOT populate with simulation results.
+# Values enter this file only after physical fabrication and measurement.
+
+wafer:
+  facility: null
+  process_revision: null
+  wafer_id: null
+
+device:
+  gate_length_nm: null
+  eot_nm: null
+  nanosheet_thickness_nm: null
+  nanosheet_width_nm: null
+  sheet_pitch_nm: null
+
+electrical:
+  vth_n_v: null
+  vth_p_v: null
+  contact_resistance_ohm_um: null
+
+status:
+  silicon_measured: false
