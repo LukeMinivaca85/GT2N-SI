@@ -1,0 +1,79 @@
+process:
+  name: GT2N-SI
+  revision: 0.1
+  status: pre-silicon-process-definition
+  origin: GT2N predictive PDK
+
+device:
+  architecture: stacked-nanosheet-GAAFET
+
+  gate_length:
+    target_nm: 14
+    disposition: CALIBRATE
+
+  eot:
+    target_nm: 0.7
+    disposition: FAB_DEPENDENT
+
+  nanosheet_thickness:
+    target_nm: 5
+    disposition: CALIBRATE
+
+  nanosheet_width_options:
+    target_nm: [13, 31]
+    disposition: CALIBRATE
+
+  sheet_pitch:
+    target_nm: 30
+    disposition: FAB_DEPENDENT
+
+  stacked_channels:
+    target: 3
+    disposition: KEEP_VERIFY
+
+interconnect:
+
+  frontside:
+    M0: {width_nm: 12, spacing_nm: 12, pitch_nm: 24}
+    M1: {width_nm: 14, spacing_nm: 14, pitch_nm: 28}
+    M2: {width_nm: 12, spacing_nm: 12, pitch_nm: 24}
+    M3: {width_nm: 14, spacing_nm: 14, pitch_nm: 28}
+    M4: {width_nm: 21, spacing_nm: 21, pitch_nm: 42}
+    M5: {width_nm: 21, spacing_nm: 21, pitch_nm: 42}
+    M6: {width_nm: 38, spacing_nm: 38, pitch_nm: 76}
+    M7: {width_nm: 38, spacing_nm: 38, pitch_nm: 76}
+    M8: {width_nm: 38, spacing_nm: 38, pitch_nm: 76}
+    M9: {width_nm: 38, spacing_nm: 38, pitch_nm: 76}
+    M10: {width_nm: 56, spacing_nm: 56, pitch_nm: 112}
+    M11: {width_nm: 56, spacing_nm: 56, pitch_nm: 112}
+    M12: {width_nm: 360, spacing_nm: 360, pitch_nm: 720}
+    M13: {width_nm: 360, spacing_nm: 360, pitch_nm: 720}
+
+  rdl:
+    width_nm: 1600
+    spacing_nm: 1600
+    pitch_nm: 3200
+
+backside:
+  enabled_target: true
+  architecture: BSPDN
+
+  BPR:
+    width_nm: 32
+    spacing_nm: 112
+    pitch_nm: 144
+
+qualification:
+  transistor_fabricated: false
+  electrical_characterization_complete: false
+  interconnect_test_structures_fabricated: false
+  rc_extracted_from_silicon: false
+  compact_models_calibrated: false
+  drc_correlated_to_fab: false
+  lvs_correlated_to_fab: false
+  pex_correlated_to_fab: false
+  standard_cells_recharacterized: false
+
+claims:
+  silicon_ready: false
+  foundry_qualified: false
