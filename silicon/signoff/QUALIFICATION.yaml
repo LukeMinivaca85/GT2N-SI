@@ -1,0 +1,55 @@
+project: GT2N-SI
+revision: 0.1
+
+stages:
+
+  predictive_pdk:
+    complete: true
+
+  physical_parameter_audit:
+    complete: true
+
+  device_model_audit:
+    complete: true
+
+  beol_audit:
+    complete: true
+
+  predictive_drc_audit:
+    complete: true
+
+  predictive_lvs_available:
+    complete: true
+
+  rc_model_available:
+    complete: true
+
+  tv0_definition:
+    complete: true
+
+  pilot_line_review:
+    complete: false
+
+  process_flow_defined_by_fab:
+    complete: false
+
+  masks_generated:
+    complete: false
+
+  wafer_fabricated:
+    complete: false
+
+  silicon_measured:
+    complete: false
+
+  compact_models_calibrated:
+    complete: false
+
+  rc_calibrated:
+    complete: false
+
+  standard_cells_recharacterized:
+    complete: false
+
+  fabrication_qualified:
+    complete: false

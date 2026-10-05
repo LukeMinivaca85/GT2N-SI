@@ -1,0 +1,21 @@
+name: GT2N-SI
+version: 0.1
+release_type: pre-silicon-process-development
+
+architecture:
+  device: stacked-nanosheet-GAAFET
+  stacked_channels: 3
+  backside_power_target: true
+
+reference:
+  source: GT2N
+  nature: predictive
+
+handoff:
+  tv0_defined: true
+  pilot_line_package_ready: true
+
+qualification:
+  silicon_ready: false
+  fabrication_qualified: false
+  production_ready: false

@@ -1,0 +1,65 @@
+project: GT2N-SI
+vehicle: TV0
+revision: 0.1
+status: FROZEN_FOR_PILOT_LINE_REVIEW
+
+purpose:
+  - characterize stacked-nanosheet GAAFET devices
+  - measure contact resistance
+  - measure frontside interconnect RC
+  - measure backside interconnect RC
+  - calibrate compact models
+  - calibrate PEX
+  - correlate DRC assumptions with fabrication
+
+device_structures:
+  nfet:
+    stacked_channels: 3
+    widths_nm: [13, 31]
+  pfet:
+    stacked_channels: 3
+    widths_nm: [13, 31]
+
+  target_geometry:
+    gate_length_nm: 14
+    eot_nm: 0.7
+    nanosheet_thickness_nm: 5
+    sheet_pitch_nm: 30
+
+electrical_test_structures:
+  - IdVg_nfets
+  - IdVd_nfets
+  - IdVg_pfets
+  - IdVd_pfets
+  - Kelvin_contacts
+  - TLM_contacts
+  - via_chains
+  - M0_serpentine
+  - M1_serpentine
+  - upper_metal_serpentines
+  - backside_BPR_serpentine
+  - comb_capacitors
+
+logic_test_structures:
+  - INV
+  - NAND2
+  - NOR2
+  - FO4_chain
+  - ring_oscillator
+
+required_measurements:
+  - threshold_voltage
+  - drive_current
+  - off_current
+  - subthreshold_slope
+  - DIBL
+  - contact_resistance
+  - sheet_resistance
+  - via_resistance
+  - interconnect_capacitance
+  - ring_oscillator_frequency
+
+silicon_status:
+  fabricated: false
+  measured: false
+  calibrated: false
